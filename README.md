@@ -1,12 +1,12 @@
  🤖 Animatronic Robotic Face using Arduino & Python
 
-   Overview
+   #Overview
 
 The Animatronic Robotic Face is an embedded systems and robotics project designed to simulate realistic facial movements using multiple servo motors. The system integrates Arduino and Python to perform synchronized facial animations and real-time human face tracking.
 
 
 
-   Features
+   #Features
 
 - 🎤 Audio synchronized lip movement
 - 👀 360° eye movement
@@ -17,7 +17,7 @@ The Animatronic Robotic Face is an embedded systems and robotics project designe
 
 
 
-  Hardware Used
+  #Hardware Used
 
 - Arduino Uno
 - Servo Motors
@@ -26,14 +26,14 @@ The Animatronic Robotic Face is an embedded systems and robotics project designe
 - others
 
 
-   Software Used
+   #Software Used
 
 - Python
 - Arduino IDE
 
 
 
- Project Structure
+ #Project Structure
 
 Code/
 Images/
@@ -41,13 +41,13 @@ Videos/
 
 
 
-   Working Principle
+  #Working Principle
 
 Python detects a human face using OpenCV and communicates with the Arduino through serial communication. The Arduino controls multiple servo motors to perform synchronized mouth movement, eye movement, and blinking. The mouth movement is synchronized with audio playback while the eyes continuously track the detected face.
 
 
 
-   Future Improvements
+   #Future Improvements
 
 
 - Wireless control
@@ -55,6 +55,6 @@ Python detects a human face using OpenCV and communicates with the Arduino throu
 
 
 
-   Author
+   #Author
 
 Tejesh
